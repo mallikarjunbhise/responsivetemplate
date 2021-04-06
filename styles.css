@@ -1,0 +1,620 @@
+/* Header */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.offer {
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 5px;
+}
+
+.logo-section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon {
+    margin-left: 30px;
+}
+
+.dit {
+    color: red;
+}
+
+#inp {
+    background-color: rgba(170, 170, 170, 0.5);
+    outline: none;
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+#inp::placeholder {
+    text-align: center;
+}
+
+.search-icon {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.user {
+    margin-right: 30px;
+}
+
+
+/* Header Img */
+.header {
+    position: relative;
+}
+
+ol {
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: 18px;
+}
+
+li {
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-text {
+    position: absolute;
+    background-color: rgba(97, 71, 71, 0.2);
+    top: 115px;
+    left: 110px;
+    width: 40%;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.header-text h1 {
+    display: inline;
+    size: 1rem;
+}
+
+.arrival {
+    display: inline;
+    padding: 10px;
+}
+
+.header-bottom {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8px 8px 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header-bottom div {
+    margin: 0 30px;
+}
+
+
+/* Middle Section */
+.middle {
+    width: 100%;
+    justify-content: center;
+}
+
+.middle-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-holder {
+    width: 60%;
+    /* display: flex; */
+    margin: auto;
+}
+
+.middle-small-box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.middle-small-box img {
+    width: 200px;
+    height: 200px;
+}
+
+.middle-medium-box {
+    width: 310px;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+    position: relative;
+}
+
+.middle-medium-box img {
+    width: 313px;
+    height: 200px;
+}
+
+.cat-info {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 30px;
+    color: white;
+}
+
+.cat-info2 {
+    position: absolute;
+    top: -60px;
+    left: 30px;
+    color: white;
+}
+
+.cat-info button,
+.cat-info2 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.card-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 30px;
+    width: 270px;
+    height: 500px;
+    box-shadow: 0 6px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 270px;
+    height: 350px;
+}
+
+.card-rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.star {
+    color: red;
+    font-size: 10px;
+}
+
+.white {
+    color: lightgray;
+    font-size: 10px;
+}
+
+/* Mission */
+
+.mission {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mission-wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    /* width: 90%; */
+}
+
+.mission-img {
+    width: 45%;
+    height: 500px;
+
+}
+
+.mission-img img {
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+}
+
+.mission-text {
+    width: 45%;
+    height: 500px;
+    border: 1px solid;
+    text-align: justify;
+    padding: 5px;
+}
+
+/* Youtube */
+
+.youtube {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video {
+    width: 45%;
+    height: 300px;
+    margin: 20px;
+}
+
+
+
+
+
+/* logos */
+.brands {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logos img {
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+    width: 500px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 100px;
+    background-color: lightgray;
+}
+
+.test img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-left: -45px;
+    box-shadow: 0px 0px 3px 8px #fff;
+}
+
+.test p {
+    margin-top: 90px;
+}
+
+.test>p>span {
+    font-size: 30px;
+}
+
+
+
+/* Gallary */
+.gallary-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallary {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gallary img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* Responsive Media */
+
+
+@media screen and (min-width: 350px)and (max-width:600px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {}
+
+    .logo-section {
+        width: 100%;
+        display: inline;
+    }
+
+    .logo-section div {
+        display: inline-block;
+    }
+
+    ol {
+        width: 100%;
+        display: block;
+        background-color: black;
+
+    }
+
+    ol li {
+        background-color: black;
+        height: 80%;
+        display: inline-block;
+        z-index: 3;
+    }
+
+    .header-img {
+        position: relative;
+        z-index: -2;
+    }
+
+    .header-text {
+        position: absolute;
+        left: 20px;
+        right: 100px;
+        font-size: 12px;
+    }
+
+    .header-bottom {
+        width: 100%;
+        display: block;
+    }
+
+    .header-bottom .box {
+        text-align: center;
+        margin-top: 20px;
+        color: rebeccapurple;
+        display: block;
+    }
+
+    .image-holder {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .middle-medium-box {
+        width: 80%;
+        color: red;
+        position: relative;
+        margin: auto;
+    }
+
+
+    /* Cards */
+    .card-container {
+        display: block;
+        position: relative;
+        justify-content: center;
+        margin-left: 15%;
+    }
+
+    .mission-wrapper {
+        display: block;
+        width: 95%;
+    }
+
+    .mission-img {
+        width: 100%;
+    }
+
+    .mission-text {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    /* Youtube */
+    .youtube {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .video {
+        position: relative;
+        width: 90%;
+    }
+
+    .video iframe {
+        width: 100%;
+        display: block;
+    }
+
+    /* logos */
+
+    .logos {
+        display: block;
+    }
+
+    .testimonial-container {
+        display: block;
+    }
+
+    .test {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px)and (max-width:1200px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {}
+
+    .logo-section {
+        width: 100%;
+        display: inline;
+    }
+
+    .logo-section div {
+        display: inline-block;
+    }
+
+    ol {
+        width: 100%;
+        display: block;
+        background-color: black;
+
+    }
+
+    ol li {
+        background-color: black;
+        height: 80%;
+        display: inline-block;
+        z-index: 3;
+    }
+
+    .header-img {
+        position: relative;
+        z-index: -2;
+    }
+
+    .header-text {
+        position: absolute;
+        left: 20px;
+        right: 100px;
+        font-size: 12px;
+    }
+
+    .header-bottom {
+        width: 100%;
+        display: flex;
+    }
+
+    .image-holder {
+        display: block;
+        width: 100%;
+    }
+
+    .middle-small-box {
+        width: 40%;
+    }
+
+    .image-holder {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .middle-medium-box img {
+        width: 60%;
+        height: 200px;
+    }
+
+    .card-container {
+        display: inline-block;
+    }
+
+    .card {
+        display: inline-block;
+    }
+
+    /* Mission */
+    .mission-wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .mission-img {
+        width: 100%;
+    }
+
+    .mission-text {
+        display: block;
+        width: 100%;
+    }
+
+    /* Youtube */
+    .youtube {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .video {
+        position: relative;
+        width: 90%;
+    }
+
+    .video iframe {
+        width: 100%;
+        display: block;
+    }
+
+    /* logos */
+
+    .logos {
+        display: block;
+    }
+
+    .testimonial-container {
+        display: block;
+    }
+
+    .test {
+        width: 80%;
+    }
+
+    .gallary {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .gallary img {
+        width: 30%;
+
+    }
+}
